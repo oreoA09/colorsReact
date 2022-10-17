@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import ColorBlock from './ColorBlock'
 
 function ColorForm(props){
 

@@ -20,7 +20,7 @@ function App() {
 
   const addColor = (newColor) => {
     if(checkColor(newColor)){
-    setColors([...colors])
+    setColors([...colors, newColor])
     }
   }
 
@@ -29,7 +29,7 @@ function App() {
       <ColorForm addColor={addColor}/>
       <div className='colorCards'>
       {colorMap}
-    </div>
+      </div>
     </div>
   );
 }
